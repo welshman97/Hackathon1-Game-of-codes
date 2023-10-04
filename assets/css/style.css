@@ -14,6 +14,15 @@ font-family: 'Montserrat', sans-serif;*/
     box-sizing: border-box;
 }
 
+/* Nav bar styles */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #8568b5;
+}
+
 /*Footer*/
 footer {
     background-color: #8568b5;
@@ -31,19 +40,21 @@ footer .cf-logo {
     font-size: 50px;
 }
 
-a {
+footer a {
     color: #fafafa;
     font-family: 'Hind', sans-serif;
     text-decoration: none;
 }
 
-.list-inline {
+footer .list-inline {
     padding-left: 0;
     list-style: none;
     padding-top: 15px;
 }
 
-.list-inline-item {
+footer .list-inline-item {
     margin-left: 30px;
     font-weight: 500;
 }
+
+
