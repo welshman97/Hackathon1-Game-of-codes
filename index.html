@@ -12,10 +12,76 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+
+    <!-- Nav Bar -->
+    <div id="main-nav" class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+
+            <a href="/" class="navbar-brand">
+                Coding Federation
+            </a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#myNavbar"
+                aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="/">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropwdown-toggle" id="myNavbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Courses
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="myNavbarDropdown">
+                            <a href="#" class="dropdown-item">Web Dev Fundamentals</a>
+                            <a href="#" class="dropdown-item">Front End Development</a>
+                            <a href="#" class="dropdown-item">Back End Development</a>
+                            <a href="#" class="dropdown-item">Full Stack</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="/about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="/careers.html">
+                            Careers
+                        </a>
+                    </li>
+
+                    <li class="nav-item mr-2 d-block d-lg-none">
+                        <a href="/login" class="btn btn--cta btn--red">
+                            Sign in / Sign up
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-block">
+
+                <p class="navbar-text my-auto mr-2">
+                    <a href="/login" class="ml-2 btn btn--cta btn--red">
+                        Sign In / Sign-Up!
+                    </a>
+                </p>
+
+            </div>
+        </nav>
+    </div>
 
 
 
