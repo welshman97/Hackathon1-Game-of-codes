@@ -1,1 +1,3 @@
-# Hackathon1-Game-of-codes
+# Coding Federation
+
+The Coding Federation is a website that aims to bring people wishing to learn to code together to learn in a self-paced but structured manner from industry professionals, and creative strong community driven support networks for learners. We aim to do this by providing comprehensive, self-paced coding education lead by industry professionals to help guide learners on their journey. We also build and provide community amongst our cohorts and give access to these community to our learners. We also bolster this with robust careers guidance from the start to help with CV writing, LinkedIn profiles, Interview practices and live hackathons to simulate real working environments.
