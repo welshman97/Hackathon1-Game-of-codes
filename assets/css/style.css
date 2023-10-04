@@ -6,3 +6,10 @@ font-family: 'Montserrat', sans-serif;*/
 #161616 - Dark Grey
 #714fa1 - Dark Purple
 #8568b5 - Light Purple*/
+
+/*General Styles*/
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
