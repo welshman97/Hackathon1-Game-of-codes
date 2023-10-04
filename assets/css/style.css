@@ -16,14 +16,6 @@ font-family: 'Montserrat', sans-serif;*/
 
 /* Nav bar styles */
 
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
 
 .navbar {
     margin-bottom: 0;
@@ -32,14 +24,4 @@ font-family: 'Montserrat', sans-serif;*/
     background-color: #8568b5;
 }
 
-.navbar .navbar-toggler {
-    border: 0;
-}
 
-.navbar-dark .navbar-brand {
-    font-weight: bold;
-}
-
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
