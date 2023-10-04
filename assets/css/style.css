@@ -11,5 +11,39 @@ font-family: 'Montserrat', sans-serif;*/
 *,
 *::before,
 *::after {
-    box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+/*Footer*/
+footer {
+    background-color: #8568b5;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+footer .cf-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+a {
+    color: #fafafa;
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.list-inline-item {
+    margin-left: 30px;
+    font-weight: 500;
 }
