@@ -52,3 +52,8 @@
 .footer-list-wrapper {
     margin-top: 1.25rem;
 }
+
+
+.form-floating {
+    width: 75%;
+}
