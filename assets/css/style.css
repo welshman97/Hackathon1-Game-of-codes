@@ -32,6 +32,10 @@ a {
     font-weight: 300;
 }
 
+#user-reviews > h1, #event-promo > h1 {
+    text-align: center;
+}
+
 /*--------------------------------------------------------------------------Carousel*/
 .carousel-caption {
     background-color: #fafafa;
@@ -81,6 +85,16 @@ a {
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #000;
     font-weight: 500;
+}
+
+/*--------------------------------------------------------------------------Event Section */
+#event-promo {
+    background-color: #424242;
+}
+
+#event-promo > h1 {
+    color: #fafafa;
+    padding-top: 1.875rem;
 }
 
 /*--------------------------------------------------------------------------Footer*/
