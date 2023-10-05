@@ -41,12 +41,13 @@ a {
     background-color: #fafafa;
     border: 2px solid #161616;
     color: black;
-    min-width: 50%;
-    min-height: 50%;
+    min-height: 70%;
+    max-width: 24rem;
 }
 
 .carousel-caption h5 {
     font-size: 1rem;
+    margin-top: 1rem;
 }
 .carousel-caption p {
     margin-bottom: 0;
@@ -133,20 +134,20 @@ footer .list-inline-item {
 
 
 
-/*--------------------------------------------------------------------------Media Queries*/
-@media (min-width: 992px) {
-    /*--------------------------------------------------------------------------Carousel*/
-    /* .carousel-caption {
-        background-color: #fafafa;
-        border: 2px solid #161616;
-        color: black;
-        max-height: 70%;
-        min-height: 50%;
-        max-width: 50%;
-        margin-bottom: 3rem;
-    }
-
+@media (min-width: 576px) {
     .carousel-caption h5 {
-        font-size: 1rem;
-    } */
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-caption h5 {
+        font-size: 4rem;
+    }
 }
