@@ -52,3 +52,25 @@
 .footer-list-wrapper {
     margin-top: 1.25rem;
 }
+
+.modal-content {
+    border: 2px solid #161616;
+}
+
+.form-floating {
+    width: 75%;
+    border: 2px solid #161616;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-text-area {
+    height: 15rem;
+    border: 2px solid #161616;
+}
+
+.form-ctrl-area {
+    border: none;
+}
