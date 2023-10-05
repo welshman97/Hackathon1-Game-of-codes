@@ -1,1 +1,29 @@
-@import url("style.css");
+@import url("../css/style.css");
+
+/*-----------------------------------------------------------------------------------------Accordion*/
+.accordion {
+    border: 2px solid #161616;
+    --bs-accordion-inner-border-radius: none;
+    --bs-accordion-border-radius: none;
+    --accordion-active-color: #8568B5;
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: none;
+    --bs-accordion-btn-focus-border: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-item-border {
+    border-bottom: 2px solid #161616;
+}
+
+.accordion-button {
+    font-weight: 700;
+}
+
+.accordion-text {
+    font-family: 'hindi', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
