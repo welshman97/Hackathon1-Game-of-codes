@@ -54,7 +54,7 @@
                 <!-- Nav links -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
 
                     <!-- Courses dropdown -->
@@ -65,23 +65,23 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-arrow" aria-labelledby="navbarDropdown">
                             <li class="dropdown-submenu dropend">
-                                <a class="dropdown-item" href="/courses.html">
+                                <a class="dropdown-item" href="courses.html">
                                     Web Dev Fundamentals
                                 </a>
 
                             </li>
                             <li>
-                                <a href="/courses.html" class="dropdown-item">
+                                <a href="courses.html" class="dropdown-item">
                                     Front End Devlopment
                                 </a>
                             </li>
                             <li>
-                                <a href="/courses.html" class="dropdown-item">
+                                <a href="courses.html" class="dropdown-item">
                                     Back End Development
                                 </a>
                             </li>
                             <li>
-                                <a href="/courses.html" class="dropdown-item">
+                                <a href="courses.html" class="dropdown-item">
                                     Full Stack Development
                                 </a>
                             </li>
@@ -89,13 +89,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/careers.html">Careers</a>
+                        <a class="nav-link" href="careers.html">Careers</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-sm-none">Sign in / Sign up</a>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
                 </ul>
             </div>
@@ -117,7 +114,8 @@
                                 <p class="d-none d-md-block">A comprehensive, industry approved<br>front-end course</p>
                                 <div class="d-flex gap-2 justify-content-center align-items-center ">
                                     <a href="#signUpModal" class="btn btn-dark pill-btn mt-1 btn-purple">Buy</a>
-                                    <a href="#contactModal" class="btn btn-dark pill-btn mt-1 d-none d-md-block">Sign up</a>
+                                    <a href="#contactModal" class="btn btn-dark pill-btn mt-1 d-none d-md-block">Sign
+                                        up</a>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +127,8 @@
                                 <p class="d-none d-md-block">A comprehensive, industry approved<br>back-end course</p>
                                 <div class="d-flex gap-2 justify-content-center align-items-center ">
                                     <a href="#signUpModal" class="btn btn-dark pill-btn mt-1 btn-purple">Buy</a>
-                                    <a href="#contactModal" class="btn btn-dark pill-btn mt-1 d-none d-md-block">Sign up</a>
+                                    <a href="#contactModal" class="btn btn-dark pill-btn mt-1 d-none d-md-block">Sign
+                                        up</a>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +140,8 @@
                                 <p class="d-none d-md-block">A comprehensive, industry approved<br>full-stack course</p>
                                 <div class="d-flex gap-2 justify-content-center align-items-center ">
                                     <a href="#signUpModal" class="btn btn-dark pill-btn mt-1 btn-purple">Buy</a>
-                                    <a href="#contactModal" class="btn btn-dark pill-btn mt-1 d-none d-md-block">Sign up</a>
+                                    <a href="#contactModal" class="btn btn-dark pill-btn mt-1 d-none d-md-block">Sign
+                                        up</a>
                                 </div>
                             </div>
                         </div>
@@ -162,45 +162,127 @@
         <!-- Courses Accordion -->
         <section class="row d-flex justify-content-center align-items-center">
             <div class="col-10">
-                <h2 class="text-center">available courses</h2>
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Accordion Item #1
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <h2 class="text-center my-5">available courses</h2>
+                <div class="accordion my-4" id="courseAccordion">
+                    <div class="accordion-item accordion-item-border">
+                        <h2 class="accordion-header" aria-label="Course 1 title">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Front-End Development
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#courseAccordion">
+                            <div class="accordion-body py-3">
+                                <div class="mb-3 accordion-text" aria-label="Course 1 description">
+                                    The front-end developer certificate focuses on front end development languages like
+                                    JavaScript and React. You'll learn to edit images and wireframes and work with
+                                    content
+                                    management systems (CMS).
+                                </div>                                
+                                <div class="d-flex gap-2 justify-content-center align-items-center my-4">
+                                    <div aria-label="Course 1 Cost">
+                                        <strong>Cost:</strong> £1000
+                                    </div>
+                                    <div aria-label="Course 1 Duration">
+                                        <strong>Duration:</strong> 6 weeks
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center my-4">
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Front-End course - opens up a sign up modal">Buy</a>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
+                    <div class="accordion-item accordion-item-border">
+                        <h2 class="accordion-header" aria-label="Course 2 title">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Back-End Development
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                            <div class="accordion-body">
+                                <div class="mb-3 accordion-text" aria-label="Course 2 description">
+                                    In the Back End Development and APIs Certification, you'll learn how to write back
+                                    end
+                                    apps with Node.js and npm. You'll also build web applications with the Express
+                                    framework, and build a People Finder microservice with MongoDB and the Mongoose
+                                    library.
+                                </div>
+                                <div class="d-flex gap-2 justify-content-center align-items-center my-4">
+                                    <div aria-label="Course 2 Cost">
+                                        <strong>Cost:</strong> £1000
+                                    </div>
+                                    <div aria-label="Course 2 Duration">
+                                        <strong>Duration:</strong> 6 weeks
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center my-4">
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Back-End course - opens up a sign up modal">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item accordion-item-border">
+                        <h2 class="accordion-header" aria-label="Course 3 title">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Full-Stack Development
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                            <div class="accordion-body">
+                                <div class="mb-3 accordion-text" aria-label="Course 3 description">
+                                    What is meant by full stack development? Full stack development is the end-to-end
+                                development of applications. It includes both the front end and back end of an
+                                application. The front end is usually accessed by a client, and the back end forms the
+                                core of the application where all the business logic is applied.
+                                </div>
+                                <div class="d-flex gap-2 justify-content-center align-items-center my-4">
+                                    <div aria-label="Course 3 Cost">
+                                        <strong>Cost:</strong> £1000
+                                    </div>
+                                    <div aria-label="Course 3 Duration">
+                                        <strong>Duration:</strong> 6 weeks
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center my-4">
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Full-Stack course - opens up a sign up modal">Buy</a>
+                                </div>                                
+                            </div>
+                        </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <h2 class="accordion-header" aria-label="Course 4 title">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                Fundamentals
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                            <div class="accordion-body">
+                                <div class="mb-3 accordion-text" aria-label="Course 4 description">
+                                    The basic coding concepts include variable declaration, basic control structures, data
+                                structures, object-oriented programming, troubleshooting and debugging, and various
+                                programming tools. These concepts are similar across different programming languages,
+                                such as C, C++, Python, and Java.
+                                </div>
+                                <div class="d-flex gap-2 justify-content-center align-items-center my-4">
+                                    <div aria-label="Course 4 Cost">
+                                        <strong>Cost:</strong> £1000
+                                    </div>
+                                    <div aria-label="Course 4 Duration">
+                                        <strong>Duration:</strong> 6 weeks
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center my-4">
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Fundamentals course - opens up a sign up modal">Buy</a>
+                                </div>  
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Accordion Item #3
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                </div>
             </div>
         </section>
     </main>
@@ -229,10 +311,10 @@
                         <a href="careers.html">Careers</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.youtube.com/">Youtube</a>
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
                     </li>
                     <li class="list-inline-item">
                         <a href="">Privacy</a>
