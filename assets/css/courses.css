@@ -1,5 +1,7 @@
 @import url("../css/style.css");
 
+
+/*-----------------------------------------------------------------------------------------Course Table*/
 .course-table {
     border: 2px solid #161616 ;
 }
@@ -33,32 +35,4 @@
 }
 
 
-/*-----------------------------------------------------------------------------------------Carousel Edits*/
-.carousel-caption {
-    min-height: 70%;
-    max-width: 24rem;
-}
 
-.carousel-caption h5 {
-    margin-top: 1rem;
-}
-
-
-/*-----------------------------------------------------------------------------------------Media Queries*/
-@media (min-width: 576px) {
-    .carousel-caption h5 {
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .carousel-caption h5 {
-        font-size: 2rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    .carousel-caption h5 {
-        font-size: 4rem;
-    }
-}
