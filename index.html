@@ -31,8 +31,9 @@
                 <!-- Sign up btn -->
                 <div class="d-flex align-items-center">
 
-                    <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign in / Sign
-                        up</a>
+                    <button type="button" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block"
+                        data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Sign in / Sign
+                        up</button>
 
                 </div>
                 <!-- Burger Toggle -->
@@ -115,7 +116,7 @@
                                     <a href="/courses.html"
                                         class="btn btn-dark pill-btn mt-1 mb-3  mb-sm-1 btn-purple">Browse
                                         Courses</a>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -131,7 +132,7 @@
                                     <a href="/careers.html"
                                         class="btn btn-dark pill-btn mt-1 mb-3  mb-sm-1 btn-purple">Careers
                                         Services</a>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -144,10 +145,9 @@
                                 <p class="d-none d-lg-block">24/5 hours access to industry professionals for any query
                                     or problem you may have.</p>
                                 <div class="d-flex gap-2 justify-content-center align-items-center ">
-                                    <a href="/about.html"
-                                        class="btn btn-dark pill-btn mt-1 mb-3 mb-sm-1 btn-purple">The
+                                    <a href="/about.html" class="btn btn-dark pill-btn mt-1 mb-3 mb-sm-1 btn-purple">The
                                         Professionals</a>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -233,43 +233,45 @@
 
     <!-- Event promo -->
     <section id="event-promo">
-        
+
         <h1 class="d-block">Events</h1>
         <!-- Card experiment -->
         <section class="py-6">
             <div class="container">
-               <div class="row justify-content-lg-center">
-                  <div class="col-lg-6">
-                     <div class="card mb-4 mb-xl-0 card-hover border">
-                        <a href="/careers.html">
-                        <img src="assets/images/careers-event image.jpg" alt="webinar-1" class="img-fluid w-100 rounded-top-3">
-                        </a>
-                        <div class="card-body">
-                           <h3 class="mb-4 text-truncate">
-                              <a href="/careers.html" class="text-inherit ">Recruitment Fair & Hackathon</a>
-                           </h3>
-                           <div class="mb-4">
-                              <div class="mb-3 lh-1">
-                                 <span class="me-1">
-                                    <i class="fa-regular fa-calendar-check"></i>
-                                 </span>
-                                 <span>Thu, November 10, 2023</span>
-                              </div>
-                              <div class="lh-1">
-                                 <span class="me-1">
-                                    <i class="fa-solid fa-clock"></i>
-                                 </span>
-                                 <span>6:00 PM – 8:00 PM GMT</span>
-                              </div>
-                           </div>
-                           <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign in / Sign
-                            up</a>
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-6">
+                        <div class="card mb-4 mb-xl-0 card-hover border">
+                            <a href="/careers.html">
+                                <img src="assets/images/careers-event image.jpg" alt="webinar-1"
+                                    class="img-fluid w-100 rounded-top-3">
+                            </a>
+                            <div class="card-body">
+                                <h3 class="mb-4 text-truncate">
+                                    <a href="/careers.html" class="text-inherit ">Recruitment Fair & Hackathon</a>
+                                </h3>
+                                <div class="mb-4">
+                                    <div class="mb-3 lh-1">
+                                        <span class="me-1">
+                                            <i class="fa-regular fa-calendar-check"></i>
+                                        </span>
+                                        <span>Thu, November 10, 2023</span>
+                                    </div>
+                                    <div class="lh-1">
+                                        <span class="me-1">
+                                            <i class="fa-solid fa-clock"></i>
+                                        </span>
+                                        <span>6:00 PM – 8:00 PM GMT</span>
+                                    </div>
+                                </div>
+                                <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign
+                                    in / Sign
+                                    up</a>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </section>
+        </section>
 
     </section>
 
@@ -313,6 +315,49 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sign up / Sign in</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Please enter password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword2">Repeat Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2"
+                                placeholder="Please repeat your password">
+                        </div>
+                        
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
