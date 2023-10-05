@@ -32,3 +32,32 @@ The landing page has an eye catching carousel that takes up most of the viewport
 
 ## Features Planned For Implementation
 Features 
+
+## Testing
+Throughout the creation of the we have been mindful of our sites's responsivesness and accessability as well as being in good, functioning order. 
+In order to ensure this, we have conducted rigorous testing throughout the creation process in order to ensure the behaviours of the site are correct. 
+Below are a few interesting bugs that we came across while creating this site. 
+
+### Footer
+The footer cause us some issues when it came to alignment within the columns. 
+In our to fix this, we split the footer sections into their individual divs and used finer controls for the breakpoints. 
+The font size and spacing would be an issue to revisit in the future. 
+
+### Carousel
+We wanted to create a site which contained a carousel that had a caption section with a white background. Each slide would contain a new image and caption section to showcase our best products for our users. 
+However, when it came to building the carousel the width would behave as we thought. After experienceing issues with overflow, we decided to make add finer control to the caption box with flexbox and width contstraints. 
+
+### Review section alignment
+Sometimes the best solution to a problem is to take a break and start again. This was exactly the case with index.html's review section. After a short break the solution was clear - by restructuring the quote section, finer control was achieved for the alignment. 
+
+## Deployment
+In order to deploy our site and ensure its functionality we used GitHub pages. 
+
+Deployment steps: 
+- Navigate to setting section.
+- Open pages tab.
+- Select "deploy from a branch"
+- Select "main" branch and /root
+- Click save and wait a moment.
+
+Deploying as early as possible in the creation process is a great way to ensure that your website is working as intended. It will help you squash any bugs early on. 
