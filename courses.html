@@ -68,7 +68,6 @@
                                 <a class="dropdown-item" href="/courses.html">
                                     Web Dev Fundamentals
                                 </a>
-
                             </li>
                             <li>
                                 <a href="/courses.html" class="dropdown-item">
@@ -105,14 +104,14 @@
     <!-- Main -->
     <main class="container-fluid p-0">
         <!-- Carousel -->
-        <section class="row hero">
+        <section class="row hero" aria-label="A selection of our most popular courses">
             <div class="col-12">
                 <div id="courseCarouselCaptions" class="carousel slide">
                     <div class="carousel-inner">
-                        <div class="carousel-item active d-flex justify-content-center align-items-center">
+                        <div class="carousel-item active">
                             <img src="assets/images/hero-img-1-html.jpg" class="d-block w-100 img-fluid"
                                 alt="Monitor showing html code">
-                            <div class="carousel-caption mx-auto my-auto p-3">
+                            <div class="carousel-caption mx-auto p-3">
                                 <h5>Front-End Development</h5>
                                 <p class="d-none d-md-block">A comprehensive, industry approved<br>front-end course</p>
                                 <div class="d-flex gap-2 justify-content-center align-items-center ">
@@ -163,10 +162,11 @@
             </div>
         </section>
         <!-- Courses Accordion -->
-        <section class="row d-flex justify-content-center align-items-center">
-            <div class="col-10">
+        <section class="row d-flex justify-content-center align-items-center"
+            aria-label="An accordion list with further details about each course">
+            <div class="col-10 col-lg-8 mx-auto">
                 <h2 class="text-center my-5">available courses</h2>
-                <div class="accordion my-4" id="courseAccordion">
+                <div class="accordion mt-4" id="courseAccordion">
                     <div class="accordion-item accordion-item-border">
                         <h2 class="accordion-header" aria-label="Course 1 title">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -182,7 +182,7 @@
                                     JavaScript and React. You'll learn to edit images and wireframes and work with
                                     content
                                     management systems (CMS).
-                                </div>                                
+                                </div>
                                 <div class="d-flex gap-2 justify-content-center align-items-center my-4">
                                     <div aria-label="Course 1 Cost">
                                         <strong>Cost:</strong> £1000
@@ -192,7 +192,8 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center my-4">
-                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Front-End course - opens up a sign up modal">Buy</a>
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center"
+                                        aria-label="Buy Front-End course - opens up a sign up modal">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +223,8 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center my-4">
-                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Back-End course - opens up a sign up modal">Buy</a>
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center"
+                                        aria-label="Buy Back-End course - opens up a sign up modal">Buy</a>
                                 </div>
                             </div>
                         </div>
@@ -238,9 +240,10 @@
                             <div class="accordion-body">
                                 <div class="mb-3 accordion-text" aria-label="Course 3 description">
                                     What is meant by full stack development? Full stack development is the end-to-end
-                                development of applications. It includes both the front end and back end of an
-                                application. The front end is usually accessed by a client, and the back end forms the
-                                core of the application where all the business logic is applied.
+                                    development of applications. It includes both the front end and back end of an
+                                    application. The front end is usually accessed by a client, and the back end forms
+                                    the
+                                    core of the application where all the business logic is applied.
                                 </div>
                                 <div class="d-flex gap-2 justify-content-center align-items-center my-4">
                                     <div aria-label="Course 3 Cost">
@@ -251,8 +254,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center my-4">
-                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Full-Stack course - opens up a sign up modal">Buy</a>
-                                </div>                                
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center"
+                                        aria-label="Buy Full-Stack course - opens up a sign up modal">Buy</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -266,10 +270,12 @@
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
                             <div class="accordion-body">
                                 <div class="mb-3 accordion-text" aria-label="Course 4 description">
-                                    The basic coding concepts include variable declaration, basic control structures, data
-                                structures, object-oriented programming, troubleshooting and debugging, and various
-                                programming tools. These concepts are similar across different programming languages,
-                                such as C, C++, Python, and Java.
+                                    The basic coding concepts include variable declaration, basic control structures,
+                                    data
+                                    structures, object-oriented programming, troubleshooting and debugging, and various
+                                    programming tools. These concepts are similar across different programming
+                                    languages,
+                                    such as C, C++, Python, and Java.
                                 </div>
                                 <div class="d-flex gap-2 justify-content-center align-items-center my-4">
                                     <div aria-label="Course 4 Cost">
@@ -280,12 +286,47 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center my-4">
-                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center" aria-label="Buy Fundamentals course - opens up a sign up modal">Buy</a>
-                                </div>  
+                                    <a href="#signUpModal" class="btn btn-dark pill-btn btn-purple text-center"
+                                        aria-label="Buy Fundamentals course - opens up a sign up modal">Buy</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- Course breakdown -->
+        <section class="row d-flex justify-content-center align-items-center"
+            aria-label="A short description to show our course structure">
+            <div class="col-10 col-lg-8 mx-auto">
+                <h2 class="text-center my-5">course structure</h2>
+                <table class="table course-table table-hover">
+                    <thead>
+                        <th scope="col">Section</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col" colspan="5">Description</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Theory</th>
+                            <td>1 week</td>
+                            <td colspan="5">Here we will take you through the theory of your subject. Providing you with
+                                the up-to-date resources, professional tutors, and your fellow coding community.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Technical</th>
+                            <td>3 weeks</td>
+                            <td colspan="5">You will be using your new found theoretical knowledge and combining it with technical
+                                understanding in order to start producing functional products.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Hackathon</th>
+                            <td>2 weeks</td>
+                            <td colspan="5">You will be placed into groups with your fellow coders to use your knowledge and
+                                teamwork skills to create a product based on a live brief.</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
     </main>
