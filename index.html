@@ -31,7 +31,8 @@
                 <!-- Sign up btn -->
                 <div class="d-flex align-items-center">
 
-                    <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign in / Sign up</a>
+                    <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign in / Sign
+                        up</a>
 
                 </div>
                 <!-- Burger Toggle -->
@@ -48,7 +49,7 @@
                 <!-- Nav links -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
 
                     <!-- Courses dropdown -->
@@ -59,23 +60,23 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-arrow" aria-labelledby="navbarDropdown">
                             <li class="dropdown-submenu dropend">
-                                <a class="dropdown-item" href="/courses.html">
+                                <a class="dropdown-item" href="courses.html">
                                     Web Dev Fundamentals
                                 </a>
 
                             </li>
                             <li>
-                                <a href="/courses.html" class="dropdown-item">
+                                <a href="courses.html" class="dropdown-item">
                                     Front End Devlopment
                                 </a>
                             </li>
                             <li>
-                                <a href="/courses.html" class="dropdown-item">
+                                <a href="courses.html" class="dropdown-item">
                                     Back End Development
                                 </a>
                             </li>
                             <li>
-                                <a href="/courses.html" class="dropdown-item">
+                                <a href="courses.html" class="dropdown-item">
                                     Full Stack Development
                                 </a>
                             </li>
@@ -83,13 +84,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/careers.html">Careers</a>
+                        <a class="nav-link" href="careers.html">Careers</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-sm-none">Sign in / Sign up</a>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
                 </ul>
             </div>
@@ -97,62 +95,141 @@
     </nav>
 
     <!-- USP Carousel -->
-    <section id="USP-carousel"></section>
+    <!-- Main -->
+    <main class="container-fluid p-0">
+        <!-- Carousel -->
+        <section class="row hero">
+            <div class="col-12">
+                <div id="courseCarouselCaptions" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active d-flex justify-content-center align-items-center">
+                            <img src="assets/images/hero-img-1-html.jpg" class="d-block w-100 img-fluid"
+                                alt="Monitor showing html code">
+                            <div class="carousel-caption mx-auto my-auto p-3">
+                                <h5>Self-paced, Structured and Current</h5>
+                                <p class="d-none d-md-block">Learn up-to-date technologies with well structured courses,
+                                    at your own pace. With community lead support and access to industry professionals
+                                    24/5!</p>
+                                <div class="d-flex gap-2 justify-content-center align-items-center ">
+                                    <a href="/courses.html" class="btn btn-dark pill-btn mt-1 btn-purple">Browse
+                                        Courses</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/hero-img-2.jpg" class="d-block w-100 img-fluid"
+                                alt="Man's face with overlay of reflected code">
+                            <div class="carousel-caption mx-auto my-auto p-3">
+                                <h5>Robust Careers Services</h5>
+                                <p class="d-none d-md-block">CV writing, LinkedIn profiles, recruitment and networking
+                                    events, employer contacts, employment skills workshops all included!</p>
+                                <div class="d-flex gap-2 justify-content-center align-items-center ">
+                                    <a href="/careers.html" class="btn btn-dark pill-btn mt-1 btn-purple">Careers
+                                        Services</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/hero-img-3.jpg" class="d-block w-100 img-fluid"
+                                alt="4 monitors with code">
+                            <div class="carousel-caption mx-auto my-auto p-3">
+                                <h5>Lead by Industry Professionals</h5>
+                                <p class="d-none d-md-block">24/5 hours access to industry professionals for any query
+                                    or problem you may have.</p>
+                                <div class="d-flex gap-2 justify-content-center align-items-center ">
+                                    <a href="/about.html" class="btn btn-dark pill-btn mt-1 btn-purple">The
+                                        Professionals</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#courseCarouselCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#courseCarouselCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
     <!-- User reviews-->
     <section id="user-reviews ">
-        <div class="container-fluid row mt-3 mb-3">
-            <!-- Course succes rate blurb -->
-            <div id="review-blurb d-none d-md-inline-block">
-                <p>We're happy to be able to report a 93% employment rate for students in the last year with 27% employed before they finished the course</p>
+        <h1>Reviews</h1>
+        <div class="row container-fluid justify-content-sm-between">
+            <!-- blurb -->
+            <div class="d-none d-sm-block col-sm-12 col-md-6">
+                <p>We're happy to be able to report a 93% employment rate for students in the last year with 27%
+                    employed before they finished the course.</p>
             </div>
-            <!-- Review one -->
-            <div class="col-12 col-md-6">
-                <div class="row">
-                    <!-- Review img-->
-                    <div class="col-4 review-img">
-                        <img src="assets/images/user-review-2.jpg" class="rounded-circle mr-3" height="100" width="100"></div>
-                    <!-- Review body -->
-                    <div class="col-8 review-body">
-                        <p>I really found the self-paced approach fitted me to a tee but the additional support from industry professionals really helped keep me motivated and on target.</p>
+            <!-- quote 1-->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="row ">
+                    <div class="col-4 align-items-center">
+                        <img src="assets/images/user-review-2.jpg" class="rounded-circle mr-3" height="100" width="100">
+                    </div>
+                    <div class="col-8">
+                        <p>I really found the self-paced approach fitted me to a tee but the additional support from
+                            industry professionals really helped keep me motivated and on target.</p>
                         <h5>Emily</h5>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- quote 2 -->
+        <div class="row justify-content-sm-center">
+            <div class="col-12 col-md-6 col-lg-4">
 
-            <!-- Review two -->
-            <div class="col-12 col-md-6">
-                <div class="row">
-                    <!-- Review img-->
-                    <div class="col-4 review-img">
-                        <img src="assets/images/user-review-1.jpg" class="rounded-circle mr-3" height="100" width="100"></div>
-                    <!-- Review body -->
-                    <div class="col-8 review-body">
-                        <p>The careers support that comes alongside these courses were absolutely invaluable to me getting my dream job in tech.</p>
+                <div class="row flex-row-reverse flex-sm-row">
+                    <div class="col-4 align-items-center">
+                        <img src="assets/images/user-review-1.jpg" class="rounded-circle mr-3" height="100" width="100">
+                    </div>
+                    <div class="col-8">
+                        <p>The careers support that comes alongside these courses were absolutely invaluable to me
+                            getting my dream job in tech.</p>
                         <h5>Emir</h5>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- quote 3 -->
+        <div class="row justify-content-sm-start">
+            <div class="col-12 col-md-6 col-lg-4">
 
-            <!-- Review three -->
-            <div class="col-12 col-md-6">
-                <div class="row">
-                    <!-- Review img-->
-                    <div class="col-4 review-img">
-                        <img src="assets/images/user-review-3.jpg" class="rounded-circle mr-3" height="100" width="100"></div>
-                    <!-- Review body -->
-                    <div class="col-8 review-body">
-                        <p>The value of being able to ask the community Coding Federation introduced me to absolutely anything has been the most priceless part of this course for me. Incredible networking. 5 stars.</p>
+                <div class="row ">
+                    <div class="col-4 align-items-center">
+                        <img src="assets/images/user-review-3.jpg" class="rounded-circle pr-1 mr-3" height="100"
+                            width="100">
+                    </div>
+                    <div class="col-8">
+                        <p>The value of being able to ask the community Coding Federation introduced me to
+                            absolutely anything has been the most priceless part of this course for me. Incredible
+                            networking. 5 stars.</p>
                         <h5>Sophie</h5>
                     </div>
                 </div>
             </div>
+
+
         </div>
+
     </section>
 
     <!-- Event promo -->
-    <section id="event-promo"></section>
+    <section id="event-promo">
+
+
+    </section>
 
     <!-- Footer -->
     <footer class="container-fluid">
@@ -167,16 +244,16 @@
             <div class="col-sm-8">
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a target="_blank" href="index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="about.html">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="courses.html">Courses</a>
+                        <a href="courses.html">Courses</a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="careers.html">Careers</a>
+                        <a href="careers.html">Careers</a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.youtube.com/">Youtube</a>
@@ -185,10 +262,10 @@
                         <a target="_blank" href="https://www.facebook.com/">Facebook</a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="">Privacy</a>
+                        <a href="#">Privacy</a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="">T's & C's</a>
+                        <a href="#">T's & C's</a>
                     </li>
                 </ul>
             </div>
