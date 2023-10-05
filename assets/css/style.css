@@ -42,7 +42,7 @@ a {
     border: 2px solid #161616;
     color: black;
     min-height: 70%;
-    max-width: 24rem;
+    min-width: 24rem;
 }
 
 .carousel-caption h5 {
