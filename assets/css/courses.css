@@ -34,5 +34,21 @@
     text-align: center;
 }
 
+/*-----------------------------------------------------------------------------------------Footer*/
+.footer-cf-logo {
+    font-size: 6rem;
+}
 
+.footer-list {
+    list-style-type: none;
+    padding-left: 0.8rem;
+}
 
+.footer-list-item,
+.footer-bottom-section p {
+    font-size: .825rem;
+}
+
+.footer-list-wrapper {
+    margin-top: 1.25rem;
+}
