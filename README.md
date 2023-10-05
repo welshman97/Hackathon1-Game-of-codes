@@ -9,10 +9,10 @@ In order to reflect our professional and well-structured ethos we decided to des
 ![wireframe designs for mobile view](assets/images/hackathon1-wireframes-mobile-01.jpg)
 
 ## Desktop
-![Wireframe designs for desktop view](assets/images/hackathon1-wireframes-desktop-02.jpg)
+![Wireframe designs for desktop view](assets/images/hackathon1-wireframes-desktop-02-02.jpg)
 
 ## State changes
-![Wireframe designs for state changes](assets/images/hackathon1-wireframes-state%20changes-03.jpg)
+![Wireframe designs for state changes](assets/images/hackathon1-wireframes-state%20changes-03-03.jpg)
 
 ## Colour palette & Fonts
 ![Colour palette & font choices](assets/images/hackathon1-wireframes-colours-and-fonts-04.jpg)
