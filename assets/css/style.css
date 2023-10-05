@@ -7,19 +7,60 @@ font-family: 'Montserrat', sans-serif;*/
 #714fa1 - Dark Purple
 #8568b5 - Light Purple*/
 
-/*General Styles*/
+/*------------------------------------------------------------------------------------------General Styles*/
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/* Makes a pill button shape on all screen sizes- apply to all cta buttons for consistency */
+
+/*--------------------------------------------------------------------------Fonts*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p,
+a {
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+}
+
+/*--------------------------------------------------------------------------Carousel*/
+.carousel-caption {
+    background-color: #fafafa;
+    border: 2px solid #161616;
+    color: black;
+    max-height: 60%;
+    max-width: 360px;
+}
+
+.carousel-caption h5 {
+    font-size: 1rem;
+}
+
+/*--------------------------------------------------------------------------Buttons*/
+.btn {
+    padding: 0.5rem 2rem;
+}
+
+.btn-purple {
+    background-color: #8568B5;
+    border: none;
+}
+
+/*--------------------------------------------------------------------------Makes a pill button shape on all screen sizes- apply to all cta buttons for consistency */
 .pill-btn {
     border-radius:1000px;
 }
 
-/* Nav bar styles */
+/*--------------------------------------------------------------------------Nav bar styles */
 
 .navbar {
     margin-bottom: 0;
@@ -34,7 +75,7 @@ font-family: 'Montserrat', sans-serif;*/
     font-weight: 500;
 }
 
-/*Footer*/
+/*--------------------------------------------------------------------------Footer*/
 footer {
     background-color: #8568b5;
     color: #fafafa;
