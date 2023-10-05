@@ -1,5 +1,9 @@
 @import url("../css/style.css");
 
+.course-table {
+    border: 2px solid #161616 ;
+}
+
 /*-----------------------------------------------------------------------------------------Accordion*/
 .accordion {
     border: 2px solid #161616;
