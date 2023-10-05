@@ -1,1 +1,8 @@
 @import url("style.css");
+
+
+.courses-carousel-1 {
+    position: relative;
+    background-image: url(../images/hero-img-1-html.jpg);
+    background-repeat: none;
+}
