@@ -1,8 +1,20 @@
 @import url("style.css");
 
 
-.courses-carousel-1 {
-    position: relative;
-    background-image: url(../images/hero-img-1-html.jpg);
-    background-repeat: none;
+/*--------------------------------------------------------------------------Carousel*/
+.carousel-caption {
+    background-color: #fafafa;
+    border: 2px solid #161616;
+    color: black;
+    max-height: 60%;
+    max-width: 360px;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+}
+
+.btn-purple {
+    background-color: #8568B5;
+    border: none;
 }
