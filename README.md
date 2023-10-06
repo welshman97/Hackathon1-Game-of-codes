@@ -59,6 +59,8 @@ Hover states added to buttons and links.
 
 FAQ section in about section.
 
+Implement sticky navbar so it stays at the top of the page.
+
 ## Testing
 Throughout the creation of the we have been mindful of our sites's responsivesness and accessability as well as being in good, functioning order. 
 In order to ensure this, we have conducted rigorous testing throughout the creation process in order to ensure the behaviours of the site are correct. 
