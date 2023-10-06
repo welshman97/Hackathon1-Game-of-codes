@@ -38,9 +38,13 @@ The events card will show upcoming events available that we are offering to peop
 
 ## Features Planned For Implementation
 Change footer links to icons in mobile.
+
 Further edits to carousel captions to improve responsiveness and layout.
+
 Funding options section to courses page.
+
 Hover states added to buttons and links.
+
 FAQ section in about section.
 
 ## Testing
@@ -59,6 +63,26 @@ However, when it came to building the carousel the width would behave as we thou
 
 ### Review section alignment
 Sometimes the best solution to a problem is to take a break and start again. This was exactly the case with index.html's review section. After a short break the solution was clear - by restructuring the quote section, finer control was achieved for the alignment. 
+
+## W3S Validation
+
+### Home Page
+![screenshot of home page validation](assets/validation-images/home-page.png)
+
+### Courses Page
+![screenshot of courses page validation](assets/validation-images/courses-page.png)
+
+### Careers Page
+![screenshot of careers page validation](assets/validation-images/careers-page.png)
+
+### Careers Page signed in
+![screenshot of careers page signed in validation](assets/validation-images/careers-page-signed-in.png)
+
+### About Page
+![screenshot of about page validation](assets/validation-images/about-page.png)
+
+### CSS Validation
+![screenshot of css validation](assets/validation-images/CSS-validation.png)
 
 ## Deployment
 In order to deploy our site and ensure its functionality we used GitHub pages. 
@@ -85,3 +109,11 @@ Bootstrap 5.3 - https://getbootstrap.com/
 Code Snippets - https://codeinstitute.net/
 
 Icons - https://fontawesome.com/
+
+## Collaborators
+
+Thomas Hawdon - https://github.com/welshman97
+
+Kerry Tolhurst - https://github.com/TolhurstTech
+
+Johan Hennius - https://github.com/Johan-Hennius
