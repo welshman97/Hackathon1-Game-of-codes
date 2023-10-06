@@ -76,3 +76,8 @@
 .form-ctrl-area {
     border: none;
 }
+
+.modal-body a {
+    text-decoration: none;
+    color: #fafafa
+}
