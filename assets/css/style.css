@@ -143,7 +143,53 @@ footer .list-inline-item {
     font-weight: 500;
 }
 
+.footer-cf-logo {
+    font-size: 6rem;
+}
 
+.footer-list {
+    list-style-type: none;
+    padding-left: 0.8rem;
+}
+
+.footer-list-item,
+.footer-bottom-section p {
+    font-size: .825rem;
+}
+
+.footer-list-wrapper {
+    margin-top: 1.25rem;
+}
+
+/*-----------------------------------------------------------------------------------------Modal styling*/
+.modal-content {
+    border: 2px solid #161616;
+}
+
+.form-floating {
+    width: 75%;
+    border: 2px solid #161616;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-text-area {
+    height: 15rem;
+    border: 2px solid #161616;
+}
+
+.form-ctrl-area {
+    border: none;
+}
+
+.modal-body a {
+    text-decoration: none;
+    color: #fafafa
+}
+
+/*-----------------------------------------------------------------------------------------Media Queries*/
 
 @media (min-width: 576px) {
     .carousel-caption h5 {
