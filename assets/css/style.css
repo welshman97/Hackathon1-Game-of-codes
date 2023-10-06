@@ -42,7 +42,7 @@ a {
     border: 2px solid #161616;
     color: black;
     min-height: 70%;
-    min-width: 24rem;
+    min-width: 14rem;
 }
 
 .carousel-caption h5 {
@@ -91,6 +91,20 @@ a {
     color: #000;
     font-weight: 500;
 }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.fa-bars {
+    color: #fafafa;
+}
 /*--------------------------------------------------------------------------Reviews Section */
 #reviews-blurb > p {
     background-color: grey;
@@ -104,7 +118,8 @@ a {
     background-color: #424242;
 }
 
-#event-promo > h1 {
+#event-promo > h1,
+#event-promo h1 {
     color: #fafafa;
     padding-top: 1.875rem;
 }
@@ -203,7 +218,7 @@ footer .list-inline-item {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     .carousel-caption h5 {
         font-size: 4rem;
     }
