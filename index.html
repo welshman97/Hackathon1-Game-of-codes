@@ -260,115 +260,92 @@
 
     </main>
 
-
-
-
-
-
     <!-- Footer -->
-    <footer class="container-fluid">
-
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h1 class="uppercase cf-logo">CF</h1>
-                <p class="inline-block">
-                    &copy;Code Federation Ltd.
-                </p>
+    <footer class="container-fluid pt-3 pb-5">
+        <div class="row footer-top-section px-3 px-sm-5">
+            <div class="col-4 col-sm-6 ps-0 text-start">
+                <h1 class="uppercase footer-cf-logo">CF</h1>
             </div>
-            <div class="col-sm-8">
-                <ul class="list-inline">
-                    <li class="list-inline-item">
+            <div
+                class="col-8 col-sm-6 footer-list-wrapper d-flex justify-content-center justify-content-sm-between text-center p-0">
+                <ul class="footer-list">
+                    <li class="footer-list-item">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="footer-list-item">
                         <a href="about.html">About</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="footer-list-item">
                         <a href="courses.html">Courses</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="footer-list-item">
                         <a href="careers.html">Careers</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/">Youtube</a>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/">Facebook</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">Privacy</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">T's & C's</a>
+                    <li class="footer-list-item">
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
                     </li>
                 </ul>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="">Privacy</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="">T's & C's</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row footer-bottom-section justify-content-center align-items-center px-3">
+            <div class="col-6 col-md-8 col-lg-9 text-start my-auto">
+                <p class="m-0">&copy;Code Federation Ltd.</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center">
+                <button type="button" class="btn rounded-pill btn-dark subscribe-button w-100 text-center"
+                    data-bs-toggle="modal" data-bs-target="#contactModal">contact</button>
             </div>
         </div>
     </footer>
 
     <!-- Modals -->
-
-    <!-- sign up modal -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+    <!-- Contact -->
+    <div class="modal fade" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered mx-auto">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Sign up / Sign in</h5>
-                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <div class="modal-header text-center justify-content-center align-items-center">
+                    <h1 class="modal-title mx-auto" id="contactModal">Contact Us!</h1>
                 </div>
                 <div class="modal-body">
-
                     <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
+                        <div class="d-flex flex-column gap-1 align-items-center">
+                            <div class="form-floating mb-2">
+                                <input type="name" class="form-control form-input" id="name-input"
+                                    placeholder="Full Name" required>
+                                <label for="name-input">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control form-input" id="email-input"
+                                    placeholder="example@example.co.uk" required>
+                                <label for="email-input">Email address</label>
+                            </div>
+                            <div class="form-floating form-text-area mb-5">
+                                <textarea class="form-control form-ctrl-area" placeholder="Type your question here"
+                                    id="floatingTextarea" required></textarea>
+                                <label for="floatingTextarea">Question</label>
+                            </div>
+                            <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
+                                <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
+                                    type="submit">Send</button>
+                                <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Please enter password">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword2">Repeat Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword2"
-                                placeholder="Please repeat your password">
-                        </div>
-
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- contact modal -->
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Sign up / Sign in</h5>
-                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    BLAH
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </div>
             </div>
