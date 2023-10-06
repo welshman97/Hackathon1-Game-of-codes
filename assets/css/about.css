@@ -18,6 +18,10 @@ h2{
     margin-left: auto;
 }
 
+.out-how-styles ~ ul {
+    text-align: center;
+}
+
 .card{
     margin-top: 1em;
 }
