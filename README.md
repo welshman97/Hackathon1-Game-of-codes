@@ -38,9 +38,13 @@ The events card will show upcoming events available that we are offering to peop
 
 ## Features Planned For Implementation
 Change footer links to icons in mobile.
+
 Further edits to carousel captions to improve responsiveness and layout.
+
 Funding options section to courses page.
+
 Hover states added to buttons and links.
+
 FAQ section in about section.
 
 ## Testing
@@ -105,3 +109,11 @@ Bootstrap 5.3 - https://getbootstrap.com/
 Code Snippets - https://codeinstitute.net/
 
 Icons - https://fontawesome.com/
+
+## Collaborators
+
+Thomas Hawdon - https://github.com/welshman97
+
+Kerry Tolhurst - https://github.com/TolhurstTech
+
+Johan Hennius - https://github.com/Johan-Hennius
