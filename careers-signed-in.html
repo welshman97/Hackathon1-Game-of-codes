@@ -24,7 +24,7 @@
         <div class="container px-3 px-md-0">
 
             <!-- Logo -->
-            <a class="navbar-brand" id="navbar-logo" href="/">Coding Federation</a>
+            <a class="navbar-brand" id="navbar-logo" href="index.html">Coding Federation</a>
 
             <!-- sign up and burger toggle -->
             <div class="d-flex align-items-center order-lg-3 ms-lg-1">
@@ -50,7 +50,7 @@
                 <!-- Nav links -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
 
 
@@ -61,7 +61,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="careers.html">Careers</a>
+                        <a class="nav-link active" href="careers.html">Careers</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" aria-current="page" href="about.html">About</a>
@@ -76,72 +76,141 @@
         </div>
     </nav>
 
-    <!-- Need Help section-->
-    <section class="need-help">
-        <div class="row">
-            <div class="col-10 mx-auto d-flex justify-content-center align-items">
-                <h1>Need any help?</h1>
-            </div>
-        </div>
-        <div class="row margin-top">
-            <div class="col-10 mx-auto d-flex justify-content-center align-items">
-                <form action="#" method="post">
-                    <label for="full-name">Full Name:</label>
-                    <input type="text" id="full-name" name="full-name" required><br><br>
-
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-
-                    <label for="help">What do you need help with?</label><br>
-                    <textarea id="help" name="help" rows="4" cols="50" required></textarea><br><br>
-
-                    <input type="submit" value="Submit">
+    <!-- Carousel-->
+    <section class="row hero" aria-label="A selection of our most popular courses">
+        <div class="col-12">
+            <div id="courseCarouselCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/hero-img-1-html.jpg" class="d-block w-100 img-fluid"
+                            alt="Monitor showing html code">
+                        <div
+                            class="carousel-caption position-absolute top-50 start-50 translate-middle d-flex flex-column gap-sm-3 justify-content-center align-items-center p-3">
+                            <h5>Junior Front-End</h5>
+                            <p class="d-none d-lg-block">An exciting opportunity for a junior developer to join an established tech company.</p>
+                            <div class="d-flex gap-2 justify-content-center align-items-center ">
+                                <a data-bs-toggle="modal" data-bs-target="#applyModal"
+                                    class="btn btn-dark pill-btn mt-1 mb-3  mb-sm-1 btn-purple">Apply</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/hero-img-2.jpg" class="d-block w-100 img-fluid"
+                            alt="Man's face with overlay of reflected code">
+                        <div
+                            class="carousel-caption position-absolute top-50 start-50 translate-middle d-flex flex-column gap-sm-3 justify-content-center align-items-center p-3">
+                            <h5>Junior Back-End</h5>
+                            <p class="d-none d-lg-block">An exciting opportunity for a junior developer to join an established tech company.</p>
+                            <div class="d-flex gap-2 justify-content-center align-items-center ">
+                                <a data-bs-toggle="modal" data-bs-target="#applyModal"
+                                    class="btn btn-dark pill-btn mt-1 mb-3  mb-sm-1 btn-purple">Apply</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/hero-img-3.jpg" class="d-block w-100 img-fluid"
+                            alt="4 monitors with code">
+                        <div
+                            class="carousel-caption position-absolute top-50 start-50 translate-middle d-flex flex-column gap-sm-3 justify-content-center align-items-center p-3">
+                            <h5>Full-Stack Developer</h5>
+                            <p class="d-none d-lg-block">An exciting opportunity for a full-stack developer to join an established tech company.</p>
+                            <div class="d-flex gap-2 justify-content-center align-items-center ">
+                                <a data-bs-toggle="modal" data-bs-target="#applyModal"
+                                    class="btn btn-dark pill-btn mt-1 mb-3 mb-sm-1 btn-purple">Apply</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#courseCarouselCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#courseCarouselCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
 
-    <hr>
+    <!-- Need Help section-->
+    <section class="need-help">
+        <div class="row">
+            <div class="col-10 mx-auto d-flex justify-content-center align-items my-5">
+                <h1>Need any help?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 mx-auto d-flex justify-content-center align-items-center">
+                <form class="w-100">
+                    <div class="d-flex flex-column gap-1 align-items-center w-100">
+                        <div class="form-floating mb-2">
+                            <input type="name" class="form-control form-input" id="name-input"
+                                placeholder="Full Name" required>
+                            <label for="name-input">Full Name</label>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="email" class="form-control form-input" id="email-input"
+                                placeholder="example@example.co.uk" required>
+                            <label for="email-input">Email address</label>
+                        </div>
+                        <div class="form-floating form-text-area mb-5">
+                            <textarea class="form-control form-ctrl-area" placeholder="Type your question here"
+                                id="floatingTextarea" required></textarea>
+                            <label for="floatingTextarea">Question</label>
+                        </div>
+                        <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
+                            <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
+                                type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
 
     <!-- Helping you prepare -->
-    <section class="helping-you-prepare container">
+    <section class="helping-you-prepare container mb-5">
         <div class="row margin-top">
-            <div class="col-10 mx-auto d-flex justify-content-center align-items">
+            <div class="col-10 mx-auto d-flex justify-content-center align-items text-center my-5">
                 <h1>Helping you prepare</h1>
             </div>
         </div>
         <div class="row margin-top">
-            <div class="col-10 mx-auto d-flex justify-content-center align-items">
-                <h3>These are what we offer to help you prepare for a career</h3>
+            <div class="col-10 mx-auto d-flex justify-content-center align-items text-center">
+                <h3>This is what we offer to help you prepare for a career</h3>
             </div>
         </div>
         <div class="row margin-top">
             <div class="col-10 mx-auto d-flex justify-content-center align-items">
                 <ul>
                     <li>
-                        <h5 class="margin-top">Offer job placement assistance, including job boards, career counseling,
-                            and interview coaching.</h5>
+                        <p class="margin-top item-list">Job placement assistance, including job boards, career counseling,
+                            and interview coaching.<p>
                     </li>
                     <li>
-                        <h5 class="margin-top">Establish partnerships with companies and share job opportunities
-                            directly with students.</h5>
+                        <p class="margin-top item-list">Establish partnerships with companies and share job opportunities
+                            directly with students.<p>
                     </li>
                     <li>
-                        <h5 class="margin-top">Provide help with CV writing so it is formatted properly and without
-                            unnecessary information.</h5>
+                        <p class="margin-top item-list">Help with CV writing so it is formatted properly and without
+                            unnecessary information.<p>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <hr>
-
     <!-- Event promo -->
     <section id="event-promo">
 
         <h1 class="d-block">Events</h1>
         <!-- Card experiment -->
-        <section class="py-6">
+        <section class="py-5">
             <div class="container">
                 <div class="row justify-content-lg-center">
                     <div class="col-lg-6">
@@ -168,7 +237,8 @@
                                         <span>6:00 PM – 8:00 PM GMT</span>
                                     </div>
                                 </div>
-                                <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign
+                                <a href="#signUpModal"
+                                    class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign
                                     in / Sign
                                     up</a>
                             </div>
@@ -177,49 +247,177 @@
                 </div>
             </div>
         </section>
+
     </section>
 
-    <hr>
-
     <!-- Footer -->
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h1 class="uppercase cf-logo">CF</h1>
-                <p class="inline-block">
-                    &copy;Code Federation Ltd.
-                </p>
+    <footer class="container-fluid pt-3 pb-5">
+        <div class="row footer-top-section px-3 px-sm-5">
+            <div class="col-4 col-sm-6 ps-0 text-start">
+                <a href="index.html"><h1 class="uppercase footer-cf-logo">CF</h1></a>
             </div>
-            <div class="col-sm-8">
-                <ul class="list-inline">
-                    <li class="list-inline-item">
+            <div
+                class="col-8 col-sm-6 footer-list-wrapper d-flex justify-content-center justify-content-sm-between text-center p-0">
+                <ul class="footer-list">
+                    <li class="footer-list-item">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="footer-list-item">
                         <a href="about.html">About</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="footer-list-item">
                         <a href="courses.html">Courses</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="footer-list-item">
                         <a href="careers.html">Careers</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/">Youtube</a>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/">Facebook</a>
+                    <li class="footer-list-item">
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="">Privacy</a>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="">Privacy</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="">T's & C's</a>
+                    <li class="footer-list-item">
+                        <a href="">T's & C's</a>
                     </li>
                 </ul>
             </div>
         </div>
+        <div class="row footer-bottom-section justify-content-center align-items-center px-3">
+            <div class="col-6 col-md-8 col-lg-9 text-start my-auto">
+                <p class="m-0">&copy;Code Federation Ltd.</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 text-center">
+                <button type="button" class="btn rounded-pill btn-dark subscribe-button w-100 text-center"
+                    data-bs-toggle="modal" data-bs-target="#contactModal">contact</button>
+            </div>
+        </div>
     </footer>
+
+    <!-- Modals -->
+    <!-- Apply -->
+    <div class="modal fade" id="applyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered mx-auto">
+            <div class="modal-content">
+                <div class="modal-header text-center justify-content-center align-items-center">
+                    <h1 class="modal-title mx-auto" id="applyModal">Apply!</h1>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="d-flex flex-column gap-1 align-items-center">
+                            <div class="form-floating mb-2">
+                                <input type="name" class="form-control form-input" id="name-input"
+                                    placeholder="Full Name" required>
+                                <label for="name-input">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control form-input" id="email-input"
+                                    placeholder="example@example.co.uk" required>
+                                <label for="email-input">Email address</label>
+                            </div>
+                            <div class="form-cv mb-5">                                
+                                    <label for="formFile" class="form-label">CV Upload</label>
+                                    <input class="form-control" type="file" id="formFile">                                  
+                            </div>
+                            <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
+                                <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
+                                    type="submit">Send</button>
+                                <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="modal fade" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered mx-auto">
+            <div class="modal-content">
+                <div class="modal-header text-center justify-content-center align-items-center">
+                    <h1 class="modal-title mx-auto" id="contactModal">Contact Us!</h1>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="d-flex flex-column gap-1 align-items-center">
+                            <div class="form-floating mb-2">
+                                <input type="name" class="form-control form-input" id="name-input"
+                                    placeholder="Full Name" required>
+                                <label for="name-input">Full Name</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control form-input" id="email-input"
+                                    placeholder="example@example.co.uk" required>
+                                <label for="email-input">Email address</label>
+                            </div>
+                            <div class="form-floating form-text-area mb-5">
+                                <textarea class="form-control form-ctrl-area" placeholder="Type your question here"
+                                    id="floatingTextarea" required></textarea>
+                                <label for="floatingTextarea">Question</label>
+                            </div>
+                            <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
+                                <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
+                                    type="submit">Send</button>
+                                <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sign up -->
+    <div class="modal fade" id="signUpModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered mx-auto">
+            <div class="modal-content">
+                <div class="modal-header text-center justify-content-center align-items-center">
+                    <h1 class="modal-title mx-auto" id="signUpModal">Sign Up!</h1>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="d-flex flex-column gap-1 align-items-center">
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control form-input" id="email-input"
+                                    placeholder="Email address" required>
+                                <label for="email-input">Email address</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="password" class="form-control form-input" id="password-input"
+                                    placeholder="Password" required>
+                                <label for="password-input" required>Password</label>
+                            </div>
+                            <div class="form-floating mb-5">
+                                <input type="password" class="form-control form-input" id="password2-input"
+                                    placeholder="Password" required>
+                                <label for="password2-input" required>Repeat Password</label>
+                            </div>
+                            <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
+                                <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
+                                    type="submit"><a href="careers-signed-in.html" >Sign Up</a></button>
+                                <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
