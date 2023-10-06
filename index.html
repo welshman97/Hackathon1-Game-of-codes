@@ -19,7 +19,6 @@
 <body>
 
     <!-- Nav Bar -->
-    <!-- navbar login -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container px-3 px-md-0">
 
@@ -50,9 +49,8 @@
                 <!-- Nav links -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-
 
                     <li class="nav-item">
                         <a class="nav-link" href="courses.html">
@@ -63,23 +61,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="careers.html">Careers</a>
                     </li>
+
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
+
                     <li>
                         <button type="button" class="btn btn-dark me-2 pill-btn d-md-none" data-bs-toggle="modal"
-                            data-bs-target="#signUpModal">Sign in / Sign
-                            up</button>
+                            data-bs-target="#signUpModal">Sign in / Sign up</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- USP Carousel -->
     <!-- Main -->
     <main class="container-fluid p-0">
-        <!-- Carousel -->
+        <!-- USP Carousel -->
         <section class="row hero" aria-label="A selection of our most popular courses">
             <div class="col-12">
                 <div id="courseCarouselCaptions" class="carousel slide">
@@ -147,7 +145,7 @@
 
         <!-- User reviews-->
         <section id="user-reviews" class="p-3 m-xxl-3 mb-5">
-            <h1 class="my-5">Reviews</h1>
+            <h2 class="my-5">Reviews</h2>
             <div class="row container-fluid justify-content-sm-between">
                 <!-- blurb -->
                 <div class="d-none d-sm-block col-sm-12 col-md-6" id="reviews-blurb">
@@ -159,8 +157,8 @@
 
                     <div class="row ">
                         <div class="col-4 align-items-center">
-                            <img src="assets/images/user-review-2.jpg" class="rounded-circle mr-3 d-none d-sm-block" height="100"
-                                width="100">
+                            <img src="assets/images/user-review-2.jpg" class="rounded-circle mr-3 d-none d-sm-block"
+                                height="100" width="100" alt="Picture of female reviewer with curly hair smiling">
                         </div>
                         <div class="col-12 col-sm-8">
                             <p>I really found the self-paced approach fitted me to a tee but the additional support from
@@ -176,8 +174,8 @@
 
                     <div class="row flex-row-reverse flex-sm-row">
                         <div class="col-4 align-items-center">
-                            <img src="assets/images/user-review-1.jpg" class="rounded-circle mr-3 d-none d-sm-block" height="100"
-                                width="100">
+                            <img src="assets/images/user-review-1.jpg" class="rounded-circle mr-3 d-none d-sm-block"
+                                height="100" width="100" alt="Picture of male reviewer reading a paper and drinking coffee">
                         </div>
                         <div class="col-12 col-sm-8">
                             <p>The careers support that comes alongside these courses were absolutely invaluable to me
@@ -193,8 +191,8 @@
 
                     <div class="row ">
                         <div class="col-4 align-items-center">
-                            <img src="assets/images/user-review-3.jpg" class="rounded-circle pr-1 mr-3 d-none d-sm-block" height="100"
-                                width="100">
+                            <img src="assets/images/user-review-3.jpg"
+                                class="rounded-circle pr-1 mr-3 d-none d-sm-block" height="100" width="100" alt="Portrait of female reviewer">
                         </div>
                         <div class="col-12 col-sm-8">
                             <p>The value of being able to ask the community Coding Federation introduced me to
@@ -213,7 +211,7 @@
         <!-- Event promo -->
         <section id="event-promo">
 
-            <h1 class="d-block">Events</h1>
+            <h2 class="d-block">Events</h2>
             <!-- Card experiment -->
             <section class="py-5">
                 <div class="container">
@@ -221,7 +219,7 @@
                         <div class="col-lg-6">
                             <div class="card mb-4 mb-xl-0 card-hover border">
                                 <a href="/careers.html">
-                                    <img src="assets/images/careers-event image.jpg" alt="webinar-1"
+                                    <img src="assets/images/careers-event-image.jpg" alt="webinar-1"
                                         class="img-fluid w-100 rounded-top-3">
                                 </a>
                                 <div class="card-body">
@@ -311,17 +309,17 @@
     <!-- Modals -->
     <!-- Contact -->
     <div class="modal fade" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered mx-auto">
             <div class="modal-content">
                 <div class="modal-header text-center justify-content-center align-items-center">
-                    <h1 class="modal-title mx-auto" id="contactModal">Contact Us!</h1>
+                    <h1 class="modal-title mx-auto">Contact Us!</h1>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="d-flex flex-column gap-1 align-items-center">
                             <div class="form-floating mb-2">
-                                <input type="name" class="form-control form-input" id="name-input"
+                                <input type="text" class="form-control form-input" id="name-input"
                                     placeholder="Full Name" required>
                                 <label for="name-input">Full Name</label>
                             </div>
@@ -351,33 +349,32 @@
 
     <!-- Sign up -->
     <div class="modal fade" id="signUpModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered mx-auto">
             <div class="modal-content">
                 <div class="modal-header text-center justify-content-center align-items-center">
-                    <h1 class="modal-title mx-auto" id="signUpModal">Sign Up!</h1>
+                    <h1 class="modal-title mx-auto">Sign Up!</h1>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="d-flex flex-column gap-1 align-items-center">
                             <div class="form-floating mb-2">
-                                <input type="email" class="form-control form-input" id="email-input"
+                                <input type="email" class="form-control form-input" id="email-input-2"
                                     placeholder="Email address" required>
-                                <label for="email-input">Email address</label>
+                                <label for="email-input-2">Email address</label>
                             </div>
                             <div class="form-floating mb-2">
                                 <input type="password" class="form-control form-input" id="password-input"
                                     placeholder="Password" required>
-                                <label for="password-input" required>Password</label>
+                                <label for="password-input">Password</label>
                             </div>
                             <div class="form-floating mb-5">
                                 <input type="password" class="form-control form-input" id="password2-input"
                                     placeholder="Password" required>
-                                <label for="password2-input" required>Repeat Password</label>
+                                <label for="password2-input">Repeat Password</label>
                             </div>
                             <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
-                                <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
-                                    type="submit"><a href="careers-signed-in.html" >Sign Up</a></button>
+                                <a href="careers-signed-in.html" class="btn rounded-pill btn-dark subscribe-button btn-purple text-center">Sign Up</a>
                                 <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
                                     Close
                                 </button>

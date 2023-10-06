@@ -118,10 +118,11 @@ a {
     background-color: #424242;
 }
 
-#event-promo > h1,
-#event-promo h1 {
+#event-promo > h2,
+#event-promo h2 {
     color: #fafafa;
     padding-top: 1.875rem;
+    text-align: center;
 }
 
 /*--------------------------------------------------------------------------Footer*/
