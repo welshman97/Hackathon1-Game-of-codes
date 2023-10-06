@@ -37,7 +37,11 @@ This modal allows a user to sign up or sign in to our website. Once signed in, a
 The events card will show upcoming events available that we are offering to people who have signed up to our courses.
 
 ## Features Planned For Implementation
-Features 
+Change footer links to icons in mobile.
+Further edits to carousel captions to improve responsiveness and layout.
+Funding options section to courses page.
+Hover states added to buttons and links.
+FAQ section in about section.
 
 ## Testing
 Throughout the creation of the we have been mindful of our sites's responsivesness and accessability as well as being in good, functioning order. 
@@ -66,4 +70,18 @@ Deployment steps:
 - Select "main" branch and /root
 - Click save and wait a moment.
 
-Deploying as early as possible in the creation process is a great way to ensure that your website is working as intended. It will help you squash any bugs early on. 
+Deploying as early as possible in the creation process is a great way to ensure that your website is working as intended. It will help you squash any bugs early on.
+
+# Credits
+
+## Content
+
+Images - https://www.pexels.com/
+
+Fonts - https://fonts.google.com/
+
+Bootstrap 5.3 - https://getbootstrap.com/
+
+Code Snippets - https://codeinstitute.net/
+
+Icons - https://fontawesome.com/
