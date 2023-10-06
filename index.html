@@ -19,7 +19,6 @@
 <body>
 
     <!-- Nav Bar -->
-    <!-- navbar login -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container px-3 px-md-0">
 
@@ -50,9 +49,8 @@
                 <!-- Nav links -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-
 
                     <li class="nav-item">
                         <a class="nav-link" href="courses.html">
@@ -63,23 +61,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="careers.html">Careers</a>
                     </li>
+
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
+
                     <li>
                         <button type="button" class="btn btn-dark me-2 pill-btn d-md-none" data-bs-toggle="modal"
-                            data-bs-target="#signUpModal">Sign in / Sign
-                            up</button>
+                            data-bs-target="#signUpModal">Sign in / Sign up</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- USP Carousel -->
     <!-- Main -->
     <main class="container-fluid p-0">
-        <!-- Carousel -->
+        <!-- USP Carousel -->
         <section class="row hero" aria-label="A selection of our most popular courses">
             <div class="col-12">
                 <div id="courseCarouselCaptions" class="carousel slide">
@@ -162,8 +160,8 @@
 
                     <div class="row ">
                         <div class="col-4 align-items-center">
-                            <img src="assets/images/user-review-2.jpg" class="rounded-circle mr-3 d-none d-sm-block" height="100"
-                                width="100">
+                            <img src="assets/images/user-review-2.jpg" class="rounded-circle mr-3 d-none d-sm-block"
+                                height="100" width="100" alt="Picture of female reviewer with curly hair smiling">
                         </div>
                         <div class="col-12 col-sm-8">
                             <p>I really found the self-paced approach fitted me to a tee but the additional support from
@@ -179,8 +177,8 @@
 
                     <div class="row flex-row-reverse flex-sm-row">
                         <div class="col-4 align-items-center">
-                            <img src="assets/images/user-review-1.jpg" class="rounded-circle mr-3 d-none d-sm-block" height="100"
-                                width="100">
+                            <img src="assets/images/user-review-1.jpg" class="rounded-circle mr-3 d-none d-sm-block"
+                                height="100" width="100" alt="Picture of male reviewer reading a paper and drinking coffee">
                         </div>
                         <div class="col-12 col-sm-8">
                             <p>The careers support that comes alongside these courses were absolutely invaluable to me
@@ -196,8 +194,8 @@
 
                     <div class="row ">
                         <div class="col-4 align-items-center">
-                            <img src="assets/images/user-review-3.jpg" class="rounded-circle pr-1 mr-3 d-none d-sm-block" height="100"
-                                width="100">
+                            <img src="assets/images/user-review-3.jpg"
+                                class="rounded-circle pr-1 mr-3 d-none d-sm-block" height="100" width="100" alt="Portrait of female reviewer">
                         </div>
                         <div class="col-12 col-sm-8">
                             <p>The value of being able to ask the community Coding Federation introduced me to
@@ -318,13 +316,13 @@
         <div class="modal-dialog modal-dialog-centered mx-auto">
             <div class="modal-content">
                 <div class="modal-header text-center justify-content-center align-items-center">
-                    <h1 class="modal-title mx-auto" id="contactModal">Contact Us!</h1>
+                    <h1 class="modal-title mx-auto">Contact Us!</h1>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="d-flex flex-column gap-1 align-items-center">
                             <div class="form-floating mb-2">
-                                <input type="name" class="form-control form-input" id="name-input"
+                                <input type="text" class="form-control form-input" id="name-input"
                                     placeholder="Full Name" required>
                                 <label for="name-input">Full Name</label>
                             </div>
@@ -358,7 +356,7 @@
         <div class="modal-dialog modal-dialog-centered mx-auto">
             <div class="modal-content">
                 <div class="modal-header text-center justify-content-center align-items-center">
-                    <h1 class="modal-title mx-auto" id="signUpModal">Sign Up!</h1>
+                    <h1 class="modal-title mx-auto">Sign Up!</h1>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -380,7 +378,7 @@
                             </div>
                             <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
                                 <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
-                                    type="submit"><a href="careers-signed-in.html" >Sign Up</a></button>
+                                    type="submit"><a href="careers-signed-in.html">Sign Up</a></button>
                                 <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
                                     Close
                                 </button>
