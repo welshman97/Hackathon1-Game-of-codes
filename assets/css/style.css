@@ -83,6 +83,10 @@ a {
     box-shadow: 0px 2px 4px 0px #494949;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #000;
     font-weight: 500;
