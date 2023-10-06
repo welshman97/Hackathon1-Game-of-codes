@@ -36,7 +36,7 @@
                 <!-- Sign up btn -->
                 <div class="d-flex align-items-center">
 
-                    <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign in / Sign
+                    <a data-bs-toggle="modal" data-bs-target="#signUpModal" class="btn btn-dark me-2 pill-btn d-none d-sm-inline-block">Sign in / Sign
                         up</a>
 
                 </div>
@@ -101,7 +101,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#signUpModal" class="btn btn-dark me-2 pill-btn d-sm-none">Sign in / Sign up</a>
+                        <a data-bs-toggle="modal" data-bs-target="#signUpModal" class="btn btn-dark me-2 pill-btn d-sm-none">Sign in / Sign up</a>
 
                     </li>
                 </ul>
@@ -183,7 +183,7 @@
         <section class="row d-flex justify-content-center align-items-center"
             aria-label="An accordion list with further details about each course">
             <div class="col-10 col-lg-8 mx-auto">
-                <h2 class="text-center my-5">available courses</h2>
+                <h2 class="text-center my-5">Available Courses</h2>
                 <div class="accordion mt-4" id="courseAccordion">
                     <div class="accordion-item accordion-item-border">
                         <h2 class="accordion-header" aria-label="Course 1 title">
@@ -321,7 +321,7 @@
         <section class="row d-flex justify-content-center align-items-center mb-5"
             aria-label="A short description to show our course structure">
             <div class="col-10 col-lg-8 mx-auto">
-                <h2 class="text-center my-5">course structure</h2>
+                <h2 class="text-center my-5">Course Structure</h2>
                 <table class="table course-table table-hover">
                     <thead>
                         <th scope="col">Section</th>
@@ -413,31 +413,31 @@
         <div class="modal-dialog modal-dialog-centered mx-auto">
             <div class="modal-content">
                 <div class="modal-header text-center justify-content-center align-items-center">
-                    <h1 class="modal-title mx-auto" id="contactModal">contact us!</h1>
+                    <h1 class="modal-title mx-auto" id="contactModal">Contact Us!</h1>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="d-flex flex-column gap-1 align-items-center">
                             <div class="form-floating mb-2">
                                 <input type="name" class="form-control form-input" id="name-input"
-                                    placeholder="Full Name">
+                                    placeholder="Full Name" required>
                                 <label for="name-input">Full Name</label>
                             </div>
                             <div class="form-floating mb-2">
                                 <input type="email" class="form-control form-input" id="email-input"
-                                    placeholder="example@example.co.uk">
+                                    placeholder="example@example.co.uk" required>
                                 <label for="email-input">Email address</label>
                             </div>
                             <div class="form-floating form-text-area mb-5">
                                 <textarea class="form-control form-ctrl-area" placeholder="Type your question here"
-                                    id="floatingTextarea"></textarea>
+                                    id="floatingTextarea" required></textarea>
                                 <label for="floatingTextarea">Question</label>
                             </div>
                             <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
                                 <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
                                     type="submit">Send</button>
                                 <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
-                                    close
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -447,47 +447,45 @@
         </div>
     </div>
     <!-- Sign up -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered mx-auto" role="document">
+    <div class="modal fade" id="signUpModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered mx-auto">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Sign up / Sign in</h5>
-                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <div class="modal-header text-center justify-content-center align-items-center">
+                    <h1 class="modal-title mx-auto" id="signUpModal">Sign Up!</h1>
                 </div>
                 <div class="modal-body">
-
                     <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
+                        <div class="d-flex flex-column gap-1 align-items-center">
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control form-input" id="email-input"
+                                    placeholder="Email address" required>
+                                <label for="email-input">Email address</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input type="password" class="form-control form-input" id="password-input"
+                                    placeholder="Password" required>
+                                <label for="password-input" required>Password</label>
+                            </div>
+                            <div class="form-floating mb-5">
+                                <input type="password" class="form-control form-input" id="password2-input"
+                                    placeholder="Password" required>
+                                <label for="password2-input" required>Repeat Password</label>
+                            </div>
+                            <div class="d-flex gap-3 justify-content-center align-items-center mb-4">
+                                <button class="btn rounded-pill btn-dark subscribe-button btn-purple text-center"
+                                    type="submit">Sign Up</button>
+                                <button type="button" class="btn rounded-pill btn-dark" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Please enter password">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword2">Repeat Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword2"
-                                placeholder="Please repeat your password">
-                        </div>
-
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    
 
 
     <!-- Bootstrap JS -->

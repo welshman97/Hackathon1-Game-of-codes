@@ -28,7 +28,13 @@ Features currently implemented.
 The navigation bar is available on all pages and allows access to all pages available on the website from any page within the site. This includes the home, courses, careers, and about pages. The logo links back to the homepage as is expected by most users. It makes navigating the entire website easy and intuitive for all users being fully responsive on all screensizes using mobile first design that makes sense to all types of users.
 
 ### Landing Page Carousel
-The landing page has an eye catching carousel that takes up most of the viewport on various screen sizes. The carousel showcases three of our main features that makes learning with us unique and gives quick access links to those pages for the user to find out more information on each part. 
+The landing page has an eye catching carousel that takes up most of the viewport on various screen sizes. The carousel showcases three of our main features that makes learning with us unique and gives quick access links to those pages for the user to find out more information on each part.
+
+### Sign Up/ Sign In Modal
+This modal allows a user to sign up or sign in to our website. Once signed in, a different version of the careers page will show, which has a contact form.
+
+### Events Card
+The events card will show upcoming events available that we are offering to people who have signed up to our courses.
 
 ## Features Planned For Implementation
 Features 
